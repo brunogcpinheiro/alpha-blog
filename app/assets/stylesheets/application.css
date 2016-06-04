@@ -27,3 +27,15 @@ span {
     color: red;
 }
 
+table {
+    padding: 20px;
+}
+
+tr {
+    padding: 20px;
+}
+
+th {
+    border-bottom: 2px dotted #999;
+}
+
