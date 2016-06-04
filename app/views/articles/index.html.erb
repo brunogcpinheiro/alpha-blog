@@ -13,7 +13,8 @@
           <td><%= article.title %></td>
           <td><%= article.description %></td>
           <td><%= link_to 'Edit', edit_article_path(article), class: "btn btn-xs btn-info", :style => "margin: 15px;" %></td>
-          <td><%= link_to 'Show', article_path(article), class: "btn btn-xs btn-warning" %></td>
+          <td><%= link_to 'Show', article_path(article), class: "btn btn-xs btn-warning", :style => "margin-right: 15px;" %></td>
+          <td><%= link_to 'Delete', article_path(article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-xs btn-danger" %></td>
         </tr>
     <% end %>
   </table>

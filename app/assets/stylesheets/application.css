@@ -37,5 +37,6 @@ tr {
 
 th {
     border-bottom: 2px dotted #999;
+    color: red;
 }
 
