@@ -1,0 +1,23 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    padding-top: 65px;
+}
+
+span {
+    color: red;
+}
+
+th {
+    border-bottom: 2px dotted #999;
+    color: royalblue;
+}
+
+#actions {
+    text-align: justify;
+}

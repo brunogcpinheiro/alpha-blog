@@ -13,26 +13,5 @@
  *= require_tree .
  *= require_self
  */
- 
-* {
-    font-family: 'Montserrat';
-}
 
-body {
-    padding-top: 65px;
-    background-color: #9b59b6;
-}
-
-span {
-    color: red;
-}
-
-th {
-    border-bottom: 2px dotted #999;
-    color: royalblue;
-}
-
-#actions {
-    text-align: justify;
-}
 
