@@ -1,21 +1,19 @@
-<div class="container">
-  <h1>Showing the article!</h1>
-  <br/>
-  <p>
-    <span>Title:</span> <%= @article.title %>
-  </p>
+<h1>Showing the article!</h1>
+<br/>
+<p>
+  <span>Title:</span> <%= @article.title %>
+</p>
   
-  <p>
-    <span>Description:</span> <%= @article.description %>
-  </p>
+<p>
+  <span>Description:</span> <%= @article.description %>
+</p>
   
-  <%= link_to "Edit this Article", edit_article_path(@article), class: "btn btn-primary" %>
+<%= link_to "Edit this Article", edit_article_path(@article), class: "btn btn-primary" %>
   
-  <br><br>
+<br><br>
   
-  <%= link_to "Delete this article", article_path(@article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger" %>
+<%= link_to "Delete this article", article_path(@article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger" %>
   
-  <br><br>
+<br><br>
   
-  <%= link_to "Back to articles list", articles_path, class: "btn btn-warning" %>
-</div>
+<%= link_to "Back to articles list", articles_path, class: "btn btn-warning" %>

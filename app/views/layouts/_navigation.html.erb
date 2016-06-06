@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <%= link_to root_path, class: "navbar-brand", id: "logo" do %>
+      <i class="fa fa-th-large" aria-hidden="true"></i>   Alpha Blog
+      <% end %>
+      </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav pull-right">
+              <li><%= link_to 'Home', root_path %></li>
+              <li><%= link_to 'About', about_path %></li>
+              <li><%= link_to 'Articles', articles_path %></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to 'New Article', new_article_path %></li>
+                  <li><a href="#">Entertainment</a></li>
+                  <li><a href="#">Food</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+</nav>
