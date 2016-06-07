@@ -2,7 +2,10 @@ $body-bg: rgba(149, 165, 166,0.7) ;
 $navbar-default-bg: rgba(127, 140, 141,0.8);
 $navbar-default-link-color: rgba(44, 62, 80,1.0);
 $navbar-default-link-hover-color: rgba(44, 62, 80,0.4);
+$dropdown-bg: rgba(127, 140, 141,0.8);
 $well-bg: rgba(127, 140, 141,0.8);
+$btn-warning-color: rgba(44, 62, 80,1.0);
+
 
 
 @import "bootstrap-sprockets";
@@ -27,13 +30,13 @@ body {
 }
 
 .jumbotron {
-    background-image: asset-url('road.jpg');
+    background-image: asset-url('rails.jpg');
     background-size: cover;
     height: 400px;
 }
 
 .jumbotron > h2, .jumbotron > p {
-    color: white;
+    color: rgba(44, 62, 80,1.0);
 }
 
 .categories {
@@ -46,7 +49,7 @@ body {
 }
 
 .article-actions {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #777;
     padding-top: 20px;
 }
 
@@ -54,10 +57,21 @@ body {
     margin-top: 0;
 }
 
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 footer {
     margin-top: 45px;
     padding: 5px;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #777;
     color: #777;
 }
 
@@ -84,11 +98,3 @@ footer ul li {
     margin-left: 15px;
 }
 
-th {
-    border-bottom: 2px dotted black;
-    color: royalblue;
-}
-
-#actions {
-    text-align: justify;
-}
