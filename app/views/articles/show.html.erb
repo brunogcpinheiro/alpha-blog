@@ -1,19 +1,15 @@
-<h1>Showing the article!</h1>
-<br/>
-<p>
-  <span>Title:</span> <%= @article.title %>
-</p>
-  
-<p>
-  <span>Description:</span> <%= @article.description %>
-</p>
-  
-<%= link_to "Edit this Article", edit_article_path(@article), class: "btn btn-primary" %>
-  
-<br><br>
-  
-<%= link_to "Delete this article", article_path(@article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger" %>
-  
-<br><br>
-  
-<%= link_to "Back to articles list", articles_path, class: "btn btn-warning" %>
+<h2 align="center"><span class="title">Title:</span> <%= @article.title %></h2>
+<div class="well col-xs-8 col-xs-offset-2">
+  <h4 class="text-center description">
+    <span class="title">Description:</span>
+  </h4>
+  <hr>
+    <%= simple_format(@article.description) %>
+   <div class="article-actions">
+     <%= link_to "Edit this Article", edit_article_path(@article), class: "btn btn-primary" %>
+     <%= link_to "Delete this article", article_path(@article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger" %>
+     <%= link_to "View all articles", articles_path, class: "btn btn-warning" %>
+   </div>
+</div>
+
+

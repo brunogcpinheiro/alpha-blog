@@ -1,7 +1,8 @@
-$body-bg: rgba(149, 165, 166,1.0) ;
-$navbar-default-bg: rgba(127, 140, 141,1.0);
+$body-bg: rgba(149, 165, 166,0.7) ;
+$navbar-default-bg: rgba(127, 140, 141,0.8);
 $navbar-default-link-color: rgba(44, 62, 80,1.0);
 $navbar-default-link-hover-color: rgba(44, 62, 80,0.4);
+$well-bg: rgba(127, 140, 141,0.8);
 
 
 @import "bootstrap-sprockets";
@@ -37,6 +38,20 @@ body {
 
 .categories {
     margin: 15px;
+}
+
+.title {
+    color: rgba(41, 128, 185,1.0);
+    font-weight: bold;
+}
+
+.article-actions {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.description {
+    margin-top: 0;
 }
 
 footer {
