@@ -51,8 +51,15 @@ body {
     font-weight: bold;
 }
 
+.article-meta-details {
+    border-top: 1px solid #888;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: rgba(189, 195, 199,1.0);
+}
+
 .article-actions {
-    border-top: 1px solid #777;
+    border-top: 1px solid #888;
     padding-top: 20px;
 }
 
@@ -66,7 +73,7 @@ body {
 }
 
 .article-body {
-    border-top: 1px solid #777;
+    border-top: 1px solid #888;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -74,7 +81,7 @@ body {
 footer {
     margin-top: 45px;
     padding: 5px;
-    border-top: 1px solid #777;
+    border-top: 1px solid #888;
     color: #777;
 }
 
