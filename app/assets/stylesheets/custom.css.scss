@@ -1,14 +1,9 @@
-$body-bg: rgba(149, 165, 166,0.7) ;
-$navbar-default-bg: rgba(127, 140, 141,0.8);
+$body-bg: rgba(255, 255, 204,0.7) ;
+$navbar-default-bg: rgba(230, 138, 0, 0.7);
 $navbar-default-link-color: rgba(44, 62, 80,1.0);
 $navbar-default-link-hover-color: rgba(44, 62, 80,0.4);
-$dropdown-bg: rgba(127, 140, 141,0.8);
-$well-bg: rgba(127, 140, 141,0.8);
-$btn-warning-color: rgba(44, 62, 80,1.0);
-$btn-info-color: rgba(44, 62, 80,1.0);
-$btn-danger-color: rgba(44, 62, 80,1.0);
-$btn-primary-color: rgba(44, 62, 80,1.0);
-$btn-success-color: rgba(44, 62, 80,1.0);
+$dropdown-bg: rgba(230, 138, 0, 0.7);
+$well-bg: rgba(230, 138, 0, 0.3);
 
 
 @import "bootstrap-sprockets";
@@ -55,7 +50,7 @@ body {
     border-top: 1px solid #888;
     margin-top: 15px;
     padding-top: 10px;
-    color: rgba(189, 195, 199,1.0);
+    color: rgba(128, 128, 255,1.0);
 }
 
 .article-actions {
