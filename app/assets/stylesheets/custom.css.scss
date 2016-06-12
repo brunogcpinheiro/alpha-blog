@@ -4,6 +4,11 @@ $navbar-default-link-color: rgba(44, 62, 80,1.0);
 $navbar-default-link-hover-color: rgba(44, 62, 80,0.4);
 $dropdown-bg: rgba(230, 138, 0, 0.7);
 $well-bg: rgba(230, 138, 0, 0.3);
+$pagination-bg: rgba(230, 138, 0, 0.3);
+$pagination-hover-bg: rgba(230, 138, 0, 0.5);
+$pagination-active-border: rgba(230, 138, 0, 1.0);
+$pagination-active-bg: rgba(230, 138, 0, 1.0);
+$pagination-disabled-bg: rgba(230, 138, 0, 0.3);
 
 
 @import "bootstrap-sprockets";
